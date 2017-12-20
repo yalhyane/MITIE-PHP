@@ -44,6 +44,13 @@ And pull down the MITIE library which is referenced as a git submodule:
 git pull --recurse-submodules
 ```
 
+Compiling MITIE as a shared library : (see https://github.com/mit-nlp/MITIE#compiling-mitie-as-a-shared-library)
+
+```
+cd MITIE/mitielib
+make
+```
+
 Edit these two lines in the Makefile so the config and ini directories point to your local directories (in the example below, I have PHP5.6 installed and will be attaching the library to the command line interface instance of PHP).
  
 ```
