@@ -14,8 +14,8 @@ LDFLAGS         = $(MITIEDIR)/libmitie.a -lpthread
 #Edit these lines to correspond with your own directories
 EXTENSION_DIR	=	$(shell php-config --extension-dir)
 
-PHP_INI_DIR	    = /etc/php/5.6/mods-available/
-PHP_CONFIG_DIR	= /etc/php/5.6/cli/conf.d/
+PHP_INI_DIR	    = /etc/php5/mods-available/
+PHP_CONFIG_DIR	= /etc/php5/cli/conf.d/
 
 LD              = g++
 LD_FLAGS        = -Wall -Wl,-rpath,/home/work/lib -shared -O2 -L/home/work/lib
